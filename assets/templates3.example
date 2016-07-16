@@ -1,0 +1,8 @@
+<!-- app/templates/applications.hbs -->
+
+{{#link-to 'application'}}Home{{/link-to}}
+{{#link-to 'books'}}Books{{/link-to}}
+
+<div class="container">
+ {{outlet}}
+</div>

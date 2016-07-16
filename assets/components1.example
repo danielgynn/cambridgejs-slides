@@ -1,0 +1,7 @@
+$ ember g component app-navbar
+$ ember g component book-listing
+installing component
+  create app/components/book-listing.js
+  create app/templates/components/book-listing.hbs
+installing component-test
+  create tests/integration/components/book-listing-test.js

@@ -1,0 +1,8 @@
+/*svg {
+  fill: black !important;
+}*/
+
+.spectacle-content {
+  max-height: 800px !important;
+  max-width: 1200px !important;
+}

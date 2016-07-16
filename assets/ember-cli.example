@@ -1,0 +1,5 @@
+$ npm install -g ember-cli
+$ ember -v
+  ember-cli: 2.6.2
+  node: 5.2.0
+  os: darwin x64

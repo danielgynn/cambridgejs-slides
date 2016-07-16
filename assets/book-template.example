@@ -1,0 +1,7 @@
+<!-- app/templates/books.hbs -->
+
+{{#each model as |book|}}
+  <h3>{{book.title}}</h3>
+  <h4>{{book.author}} - {{book.year}}</h4>
+  <p>{{book.blurb}}</p>
+{{/each}}

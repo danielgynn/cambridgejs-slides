@@ -1,0 +1,10 @@
+$ ember g route application
+$ ember g route about
+$ ember g route books
+installing route
+  create app/routes/books.js
+  create app/templates/books.hbs
+updating router
+  add route books
+installing route-test
+  create tests/unit/routes/books-test.js

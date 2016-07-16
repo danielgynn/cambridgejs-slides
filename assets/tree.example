@@ -1,0 +1,15 @@
+|--app
+|--bower_components
+|--config
+|--dist
+|--node_modules
+|--public
+|--tests
+|--tmp
+|--vendor
+
+bower.json
+ember-cli-build.js
+package.json
+README.md
+testem.js

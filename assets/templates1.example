@@ -1,0 +1,5 @@
+<!-- app/templates/applications.hbs -->
+
+<div class="container">
+ {{outlet}}
+</div>

@@ -1,0 +1,18 @@
+// mirage/config.js
+export default function() {
+  this.get('/books', function() {
+    return {
+      data: [{
+        type: 'books',
+        id: 1,
+        attributes: {
+          title: 'Norwegian Wood',
+          author: 'Haruki Murakami',
+          year: '1987',
+          image: 'https://d.gr-assets.com/books/1386924361l/11297.jpg',
+          blurb: 'This stunning and elegiac novel by the author of the internationally acclaimed Wind-Up Bird Chronicle has sold over 4 million copies in Japan and is now available to American audiences for the first time.It is sure to be a literary event.'
+        }
+      }]
+    };
+  });
+}
